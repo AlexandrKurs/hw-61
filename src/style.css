@@ -1,0 +1,64 @@
+.col-6 {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  background-color: seashell;
+  height: 60vh;
+  padding-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.col-5 {
+  height: 100%;
+  overflow: auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: seashell;
+  z-index: 1;
+  padding: 10px 0 20px 30px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: brown;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.data {
+  font-weight: bold;
+  color: brown;
+}
+
+.col-4 {
+  margin-left: 80px;
+}
+
+.dataList {
+  margin-top: 30px;
+}
